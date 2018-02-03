@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20" started-at="2018-02-02T17:24:28Z" finished-at="2018-02-02T17:24:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20" started-at="2018-02-02T17:24:28Z" finished-at="2018-02-02T17:24:28Z">
+      <class name="qsp.MavenProjectDemo1">
+        <test-method status="PASS" signature="mavenDemo2()[pri:0, instance:qsp.MavenProjectDemo1@67b64c45]" name="mavenDemo2" duration-ms="8" started-at="2018-02-02T22:54:28Z" finished-at="2018-02-02T22:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenDemo2 -->
+      </class> <!-- qsp.MavenProjectDemo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
