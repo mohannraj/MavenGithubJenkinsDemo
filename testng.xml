@@ -3,7 +3,6 @@
 <!--  suite name="Suite" parallel="tests"-->
 <suite name="Suite" >
 
-<!--  
   <test name="Test1">
   <parameter name="browser" value="chrome"></parameter>
   <parameter name="version" value="63"></parameter>
@@ -11,13 +10,15 @@
       <class name="qsp.MavenProjectDemo1"/>
     </classes>
   </test> 
-  -->
+  
+  <!--  
     <test name="Test2">
   <parameter name="browser" value="firefox"></parameter>
   <parameter name="version" value="57"></parameter>
     <classes>
       <class name="qsp.MavenProjectDemo1"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
+  -->
   
 </suite> <!-- Suite -->
