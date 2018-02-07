@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Welcome to maven project demo2]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31" started-at="2018-02-07T10:56:56Z" finished-at="2018-02-07T10:56:56Z">
+  <suite name="Suite" duration-ms="39975" started-at="2018-02-07T12:56:12Z" finished-at="2018-02-07T12:56:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31" started-at="2018-02-07T10:56:56Z" finished-at="2018-02-07T10:56:56Z">
+    <test name="Test2" duration-ms="39975" started-at="2018-02-07T12:56:12Z" finished-at="2018-02-07T12:56:52Z">
       <class name="qsp.MavenProjectDemo1">
-        <test-method status="PASS" signature="mavenDemo2()[pri:0, instance:qsp.MavenProjectDemo1@5034c75a]" name="mavenDemo2" duration-ms="16" started-at="2018-02-07T16:26:56Z" finished-at="2018-02-07T16:26:56Z">
+        <test-method status="PASS" signature="mavenDemo2(java.lang.String, java.lang.String)[pri:0, instance:qsp.MavenProjectDemo1@7dc7cbad]" name="mavenDemo2" duration-ms="39942" started-at="2018-02-07T18:26:12Z" finished-at="2018-02-07T18:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Welcome to maven project demo2]]>
-            </line>
           </reporter-output>
         </test-method> <!-- mavenDemo2 -->
       </class> <!-- qsp.MavenProjectDemo1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

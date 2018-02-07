@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="57"/>
+  <test name="Test2">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="57"/>
     <classes>
       <class name="qsp.MavenProjectDemo1"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test2 -->
 </suite> <!-- Failed suite [Suite] -->
